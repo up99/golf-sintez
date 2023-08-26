@@ -1,0 +1,41 @@
+PODS:
+  - LibTorch (1.6.1):
+    - LibTorch/Core (= 1.6.1)
+  - LibTorch/Core (1.6.1):
+    - LibTorch/Torch
+  - LibTorch/Torch (1.6.1)
+  - TensorFlowLiteC (0.0.1-nightly.20230405):
+    - TensorFlowLiteC/Core (= 0.0.1-nightly.20230405)
+  - TensorFlowLiteC/Core (0.0.1-nightly.20230405)
+  - TensorFlowLiteC/CoreML (0.0.1-nightly.20230405):
+    - TensorFlowLiteC/Core
+  - TensorFlowLiteC/Metal (0.0.1-nightly.20230405):
+    - TensorFlowLiteC/Core
+  - TensorFlowLiteSwift/Core (0.0.1-nightly.20230405):
+    - TensorFlowLiteC (= 0.0.1-nightly.20230405)
+  - TensorFlowLiteSwift/CoreML (0.0.1-nightly.20230405):
+    - TensorFlowLiteC/CoreML (= 0.0.1-nightly.20230405)
+    - TensorFlowLiteSwift/Core (= 0.0.1-nightly.20230405)
+  - TensorFlowLiteSwift/Metal (0.0.1-nightly.20230405):
+    - TensorFlowLiteC/Metal (= 0.0.1-nightly.20230405)
+    - TensorFlowLiteSwift/Core (= 0.0.1-nightly.20230405)
+
+DEPENDENCIES:
+  - LibTorch (~> 1.6.1)
+  - TensorFlowLiteSwift/CoreML (~> 0.0.1-nightly)
+  - TensorFlowLiteSwift/Metal (~> 0.0.1-nightly)
+
+SPEC REPOS:
+  trunk:
+    - LibTorch
+    - TensorFlowLiteC
+    - TensorFlowLiteSwift
+
+SPEC CHECKSUMS:
+  LibTorch: 32a83630ab5b4505f205c7e332975a2d3d6e0c55
+  TensorFlowLiteC: 3deccb9fc6560cf521735fffb1ff438f07435e42
+  TensorFlowLiteSwift: f82f3d45b76bf3611727a731b000c6e93a1d9e9a
+
+PODFILE CHECKSUM: a5e89205409ea50e105036d72f753d0c65b8b39e
+
+COCOAPODS: 1.12.1
